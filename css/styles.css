@@ -50,8 +50,16 @@ h1 {
 }
 #kanban .column .card:hover {
   background-color: rgba(17, 117, 162, 0.53);
-  color: white;
+  color: #fff;
   cursor: pointer;
+}
+#kanban .column .card:hover .ex {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+#kanban .column .card:hover i {
+  color: rgba(17, 117, 162, 0.53);
 }
 
 .column {
