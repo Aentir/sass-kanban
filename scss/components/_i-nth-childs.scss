@@ -1,0 +1,13 @@
+@use '../icons/icons-colors' as *;
+
+i:nth-child(1){
+    background-color: $pc-background-icon-color;
+}
+
+i:nth-child(2){
+    background-color: $cube-background-icon-color;
+}
+
+i:nth-child(3){
+    background-color: $mobile-background-icon-color;
+}

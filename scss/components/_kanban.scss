@@ -1,0 +1,20 @@
+@use '../abstracts/cards-colors' as *;
+
+#kanban {
+    .column {
+        .card {
+            border-radius: 10px;
+            padding: 10px;
+            border: solid 1px #0000001c;
+            margin-bottom: 10px;
+            position: relative;
+            font-size: 15px;
+            background-color: $cards-background-color;
+        }
+        .card:hover {
+            background-color: $cards-background-color-hover;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

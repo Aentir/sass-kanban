@@ -1,0 +1,6 @@
+@use '../abstracts/fonts' as *;
+
+* {
+    box-sizing: border-box;
+    font-family: $font;
+}

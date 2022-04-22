@@ -1,0 +1,11 @@
+@use '../icons/icons-colors' as *;
+
+.ex {
+    background-color: $x-color;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: $icons-color;
+    float: right;
+    border-radius: 50%;
+}

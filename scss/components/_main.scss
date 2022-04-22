@@ -1,0 +1,8 @@
+@use '../abstracts/main-background-img' as *;
+
+main {
+    background-image: $main-background-img;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}

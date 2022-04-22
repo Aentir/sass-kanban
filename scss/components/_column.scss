@@ -1,0 +1,11 @@
+@use '../abstracts/column-colors' as *;
+@use '../tools/functions' as function;
+
+.column {
+    float: left;
+    width: function.calculate-width(5.555);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $column-background-color;
+    margin: 1%;
+}
