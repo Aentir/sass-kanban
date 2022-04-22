@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  background-image: url("../../images/background.jpg");
+  background-image: url("../images/background.jpg");
   height: 100%;
   background-size: cover;
   overflow: hidden;
@@ -84,3 +84,5 @@ i:nth-child(2) {
 i:nth-child(3) {
   background-color: rgb(230, 184, 34);
 }
+
+/*# sourceMappingURL=styles.css.map */
